@@ -1,0 +1,6 @@
+{
+    "sku110k_folder": {
+        "train": ["path_to_dataset_folder/cropped_images/train", "<unused>"],
+        "val": ["path_to_dataset_folder/cropped_images/val", "<unused>"]
+    }
+}

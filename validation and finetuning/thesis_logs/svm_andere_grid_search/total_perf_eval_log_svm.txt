@@ -1,0 +1,1225 @@
+Total log compiled at 2023-05-28 @ 13:53:00.
+
+Results for rotnet
+origin_file: data/rotnet/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:44:41.
+Embedding gallery of model rotnet was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=62.31003039513677% (accuracy calculated on testing set)
+mAP=22.414741767039043% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/rotnet/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:44:44.
+Embedding gallery of model rotnet was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=50.0% (accuracy calculated on testing set)
+mAP=24.658146154076366% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 2]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for rotnet_phase0
+origin_file: data/rotnet_phase0/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:44:56.
+Embedding gallery of model rotnet_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 2, 'kernel': 'poly'}
+acc=31.00303951367781% (accuracy calculated on testing set)
+mAP=13.86687003232121% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/rotnet_phase0/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:00.
+Embedding gallery of model rotnet_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 3, 'kernel': 'poly'}
+acc=22.483221476510067% (accuracy calculated on testing set)
+mAP=11.433831389321437% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for rotnet_phase25
+origin_file: data/rotnet_phase25/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:12.
+Embedding gallery of model rotnet_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 2, 'kernel': 'poly'}
+acc=48.632218844984806% (accuracy calculated on testing set)
+mAP=19.796802674573193% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 1 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/rotnet_phase25/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:16.
+Embedding gallery of model rotnet_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 2, 'kernel': 'poly'}
+acc=36.577181208053695% (accuracy calculated on testing set)
+mAP=15.815739357109045% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for rotnet_phase50
+origin_file: data/rotnet_phase50/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:27.
+Embedding gallery of model rotnet_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=59.57446808510638% (accuracy calculated on testing set)
+mAP=21.98487546008685% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/rotnet_phase50/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:31.
+Embedding gallery of model rotnet_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=43.288590604026844% (accuracy calculated on testing set)
+mAP=20.61194109892501% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for rotnet_phase75
+origin_file: data/rotnet_phase75/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:43.
+Embedding gallery of model rotnet_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=62.31003039513677% (accuracy calculated on testing set)
+mAP=24.13104373456273% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/rotnet_phase75/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:47.
+Embedding gallery of model rotnet_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=47.651006711409394% (accuracy calculated on testing set)
+mAP=21.599949808481764% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 2]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for rotnet_phase100
+origin_file: data/rotnet_phase100/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:45:58.
+Embedding gallery of model rotnet_phase100 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=62.91793313069909% (accuracy calculated on testing set)
+mAP=23.73710453349915% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/rotnet_phase100/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:02.
+Embedding gallery of model rotnet_phase100 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=51.006711409395976% (accuracy calculated on testing set)
+mAP=23.31454860285803% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 2]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for jigsaw
+origin_file: data/jigsaw/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:12.
+Embedding gallery of model jigsaw was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=53.799392097264445% (accuracy calculated on testing set)
+mAP=23.087419730139548% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 1 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/jigsaw/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:16.
+Embedding gallery of model jigsaw was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=33.89261744966443% (accuracy calculated on testing set)
+mAP=17.070119044103123% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for jigsaw_phase0
+origin_file: data/jigsaw_phase0/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:30.
+Embedding gallery of model jigsaw_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'rbf'}
+acc=31.30699088145897% (accuracy calculated on testing set)
+mAP=14.614641705273035% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/jigsaw_phase0/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:33.
+Embedding gallery of model jigsaw_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=17.449664429530202% (accuracy calculated on testing set)
+mAP=11.248487232830227% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for jigsaw_phase25
+origin_file: data/jigsaw_phase25/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:45.
+Embedding gallery of model jigsaw_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 4, 'kernel': 'poly'}
+acc=37.38601823708207% (accuracy calculated on testing set)
+mAP=13.68800613653072% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/jigsaw_phase25/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:48.
+Embedding gallery of model jigsaw_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=26.845637583892618% (accuracy calculated on testing set)
+mAP=12.863195644040262% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for jigsaw_phase50
+origin_file: data/jigsaw_phase50/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:46:59.
+Embedding gallery of model jigsaw_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'degree': 2, 'kernel': 'poly'}
+acc=51.97568389057751% (accuracy calculated on testing set)
+mAP=21.16855900666036% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/jigsaw_phase50/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:03.
+Embedding gallery of model jigsaw_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'degree': 4, 'kernel': 'poly'}
+acc=31.543624161073826% (accuracy calculated on testing set)
+mAP=18.360340730679432% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for jigsaw_phase75
+origin_file: data/jigsaw_phase75/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:14.
+Embedding gallery of model jigsaw_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=57.14285714285714% (accuracy calculated on testing set)
+mAP=25.25387794031116% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 1 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/jigsaw_phase75/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:18.
+Embedding gallery of model jigsaw_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=35.23489932885906% (accuracy calculated on testing set)
+mAP=20.360852521536764% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for jigsaw_phase100
+origin_file: data/jigsaw_phase100/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:28.
+Embedding gallery of model jigsaw_phase100 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=55.319148936170215% (accuracy calculated on testing set)
+mAP=23.997550132748252% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 1 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/jigsaw_phase100/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:32.
+Embedding gallery of model jigsaw_phase100 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 2, 'kernel': 'poly'}
+acc=33.557046979865774% (accuracy calculated on testing set)
+mAP=15.570273901213492% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco32
+origin_file: data/moco32/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:43.
+Embedding gallery of model moco32 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=67.17325227963525% (accuracy calculated on testing set)
+mAP=27.304713767866556% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco32/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:47.
+Embedding gallery of model moco32 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=53.691275167785236% (accuracy calculated on testing set)
+mAP=26.84388295668139% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco32_phase0
+origin_file: data/moco32_phase0/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:47:58.
+Embedding gallery of model moco32_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'degree': 10, 'kernel': 'poly'}
+acc=44.680851063829785% (accuracy calculated on testing set)
+mAP=18.836194985116865% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco32_phase0/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:02.
+Embedding gallery of model moco32_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'degree': 4, 'kernel': 'poly'}
+acc=31.543624161073826% (accuracy calculated on testing set)
+mAP=17.176686414141763% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco32_phase25
+origin_file: data/moco32_phase25/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:13.
+Embedding gallery of model moco32_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=62.91793313069909% (accuracy calculated on testing set)
+mAP=25.406335617849855% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco32_phase25/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:17.
+Embedding gallery of model moco32_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=50.0% (accuracy calculated on testing set)
+mAP=27.958697429419477% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco32_phase50
+origin_file: data/moco32_phase50/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:28.
+Embedding gallery of model moco32_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=65.34954407294833% (accuracy calculated on testing set)
+mAP=27.52279512253247% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco32_phase50/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:32.
+Embedding gallery of model moco32_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 2, 'kernel': 'poly'}
+acc=53.02013422818792% (accuracy calculated on testing set)
+mAP=24.284455975025597% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco32_phase75
+origin_file: data/moco32_phase75/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:43.
+Embedding gallery of model moco32_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=67.47720364741642% (accuracy calculated on testing set)
+mAP=25.88372661115535% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco32_phase75/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:47.
+Embedding gallery of model moco32_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=55.033557046979865% (accuracy calculated on testing set)
+mAP=28.254397370551697% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco64
+origin_file: data/moco64/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:48:59.
+Embedding gallery of model moco64 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=70.82066869300911% (accuracy calculated on testing set)
+mAP=24.19474346006784% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco64/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:03.
+Embedding gallery of model moco64 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=59.06040268456376% (accuracy calculated on testing set)
+mAP=30.392585936323453% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco64_phase0
+origin_file: data/moco64_phase0/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:13.
+Embedding gallery of model moco64_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'degree': 5, 'kernel': 'poly'}
+acc=53.191489361702125% (accuracy calculated on testing set)
+mAP=22.1777884032901% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco64_phase0/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:17.
+Embedding gallery of model moco64_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'degree': 5, 'kernel': 'poly'}
+acc=35.23489932885906% (accuracy calculated on testing set)
+mAP=18.604767714368375% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco64_phase25
+origin_file: data/moco64_phase25/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:28.
+Embedding gallery of model moco64_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=65.65349544072949% (accuracy calculated on testing set)
+mAP=27.38021623018478% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco64_phase25/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:32.
+Embedding gallery of model moco64_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=54.36241610738255% (accuracy calculated on testing set)
+mAP=28.43005493210943% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco64_phase50
+origin_file: data/moco64_phase50/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:43.
+Embedding gallery of model moco64_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=67.78115501519757% (accuracy calculated on testing set)
+mAP=26.64504338852757% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco64_phase50/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:47.
+Embedding gallery of model moco64_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=56.711409395973156% (accuracy calculated on testing set)
+mAP=29.304286398066992% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for moco64_phase75
+origin_file: data/moco64_phase75/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:49:59.
+Embedding gallery of model moco64_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=67.78115501519757% (accuracy calculated on testing set)
+mAP=28.296670233474337% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/moco64_phase75/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:03.
+Embedding gallery of model moco64_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=57.71812080536913% (accuracy calculated on testing set)
+mAP=30.01106427414384% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for simclr
+origin_file: data/simclr/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:14.
+Embedding gallery of model simclr was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=65.65349544072949% (accuracy calculated on testing set)
+mAP=24.151418230510576% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 1 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/simclr/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:18.
+Embedding gallery of model simclr was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=46.97986577181208% (accuracy calculated on testing set)
+mAP=23.47311361605969% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 1 2]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for simclr_phase0
+origin_file: data/simclr_phase0/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:29.
+Embedding gallery of model simclr_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'degree': 4, 'kernel': 'poly'}
+acc=56.53495440729483% (accuracy calculated on testing set)
+mAP=22.557628916831305% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/simclr_phase0/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:33.
+Embedding gallery of model simclr_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'kernel': 'linear'}
+acc=43.95973154362416% (accuracy calculated on testing set)
+mAP=22.65624735651387% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for simclr_phase25
+origin_file: data/simclr_phase25/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:43.
+Embedding gallery of model simclr_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=63.525835866261396% (accuracy calculated on testing set)
+mAP=25.032615057258102% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/simclr_phase25/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:48.
+Embedding gallery of model simclr_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'degree': 3, 'kernel': 'poly'}
+acc=45.63758389261745% (accuracy calculated on testing set)
+mAP=23.660994698132832% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 1 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for simclr_phase50
+origin_file: data/simclr_phase50/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:50:59.
+Embedding gallery of model simclr_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=64.13373860182371% (accuracy calculated on testing set)
+mAP=22.569739676403607% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/simclr_phase50/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:03.
+Embedding gallery of model simclr_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=49.328859060402685% (accuracy calculated on testing set)
+mAP=26.325093864520678% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 1 2]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for simclr_phase75
+origin_file: data/simclr_phase75/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:14.
+Embedding gallery of model simclr_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'kernel': 'linear'}
+acc=66.56534954407294% (accuracy calculated on testing set)
+mAP=24.748178601311235% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 1 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/simclr_phase75/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:18.
+Embedding gallery of model simclr_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 20, 'kernel': 'linear'}
+acc=45.63758389261745% (accuracy calculated on testing set)
+mAP=24.92857765003034% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for swav
+origin_file: data/swav/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:29.
+Embedding gallery of model swav was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'kernel': 'rbf'}
+acc=3.0395136778115504% (accuracy calculated on testing set)
+mAP=3.0115004793161475% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/swav/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:33.
+Embedding gallery of model swav was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'kernel': 'rbf'}
+acc=0.6711409395973155% (accuracy calculated on testing set)
+mAP=3.1074843291397225% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for swav_phase0
+origin_file: data/swav_phase0/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:43.
+Embedding gallery of model swav_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 100, 'degree': 10, 'kernel': 'poly'}
+acc=26.443768996960486% (accuracy calculated on testing set)
+mAP=10.943097609306443% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/swav_phase0/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:46.
+Embedding gallery of model swav_phase0 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 50, 'degree': 10, 'kernel': 'poly'}
+acc=18.456375838926174% (accuracy calculated on testing set)
+mAP=8.873275292871181% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 1]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for swav_phase25
+origin_file: data/swav_phase25/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:51:57.
+Embedding gallery of model swav_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'kernel': 'rbf'}
+acc=3.0395136778115504% (accuracy calculated on testing set)
+mAP=3.012223494998284% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/swav_phase25/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:01.
+Embedding gallery of model swav_phase25 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'kernel': 'rbf'}
+acc=0.6711409395973155% (accuracy calculated on testing set)
+mAP=3.1074843291397234% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for swav_phase50
+origin_file: data/swav_phase50/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:11.
+Embedding gallery of model swav_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'kernel': 'rbf'}
+acc=3.0395136778115504% (accuracy calculated on testing set)
+mAP=2.9889399264874648% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/swav_phase50/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:15.
+Embedding gallery of model swav_phase50 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'kernel': 'rbf'}
+acc=0.6711409395973155% (accuracy calculated on testing set)
+mAP=3.1074843291397225% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for swav_phase75
+origin_file: data/swav_phase75/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:26.
+Embedding gallery of model swav_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 1, 'kernel': 'rbf'}
+acc=3.0395136778115504% (accuracy calculated on testing set)
+mAP=2.9973915292105935% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/swav_phase75/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:30.
+Embedding gallery of model swav_phase75 was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 0.1, 'kernel': 'rbf'}
+acc=0.6711409395973155% (accuracy calculated on testing set)
+mAP=3.1074843291397243% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for imgnet_pretrained
+origin_file: data/imgnet_pretrained/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:41.
+Embedding gallery of model imgnet_pretrained was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=70.2127659574468% (accuracy calculated on testing set)
+mAP=26.489538645509832% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/imgnet_pretrained/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:46.
+Embedding gallery of model imgnet_pretrained was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 30, 'kernel': 'linear'}
+acc=61.40939597315436% (accuracy calculated on testing set)
+mAP=29.21614920157672% (mAP calculated on testing set with 187/187 classes)
+cm= [[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 2 1]
+ [0 0 0 ... 0 0 1]]
+------------------------------------------------------------------------------------------
+
+
+
+Results for random
+origin_file: data/random/perf_eval_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:52:56.
+Embedding gallery of model random was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 10, 'kernel': 'poly'}
+acc=42.857142857142854% (accuracy calculated on testing set)
+mAP=18.474782440290067% (mAP calculated on testing set with 172/384 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 2 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
+origin_file: data/random/perf_eval_strict_svm.txt
+------------------------------------------------------------------------------------------
+performance assessment logging results on 2023-05-28 @ 13:53:00.
+Embedding gallery of model random was used to calculated these scores.
+The model was using the best params from cross validation, best_params:{'C': 10, 'degree': 10, 'kernel': 'poly'}
+acc=32.21476510067114% (accuracy calculated on testing set)
+mAP=16.475587730831432% (mAP calculated on testing set with 187/187 classes)
+cm= [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 0]]
+------------------------------------------------------------------------------------------
+
+
