@@ -40,7 +40,7 @@ It saves these crops in a training, test and validation set for SSL pre-training
 
 ### Pre-training
 In the folder "pretraining" you can find all yaml configuration files that I used for pre-training with VISSL.
-For more information about how to execute SSL pre-training, I recommend taking a look at the [VISSL documentation](https://vissl.readthedocs.io/en/v0.1.6/)
+For more information about how to execute SSL pre-training, I recommend taking a look at the [VISSL documentation](https://vissl.readthedocs.io/en/v0.1.6/).
 
 ### Evaluation and fine-tuning
 In the folder "evaluation_and_finetuning" you can find all the scripts I used for:
@@ -51,7 +51,7 @@ In the folder "evaluation_and_finetuning" you can find all the scripts I used fo
 
 The program `query_origin.py` is used to determine the strict train-test split.
 
-### testing notebooks and extras
+### Testing notebooks and extras
 The folder testing notebooks contains some of the notebooks I used for testing purposes before making a computationally heavy script.
 The folder extras contains some extra scripts I used for creating figures and extracting data for the thesis.
 
