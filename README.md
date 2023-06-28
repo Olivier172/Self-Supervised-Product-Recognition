@@ -31,3 +31,30 @@ Hun prestaties worden in perspectief geplaatst in vergelijking met willekeurig g
 Er werd vastgesteld dat contrastive learning methoden het best presteren, vooral het MoCo model dat vooraf is getraind met een batch size van 64, waarmee mAP scores tot 79, 4% worden behaald. 
 Wij constateren dat self-supervised pre-training waardevol kan zijn in ons geval van classificatie van alledaagse producten uit de supermarkt. 
 Alle code-implementaties voor deze thesis zijn hier te vinden.
+
+## Additional explanation
+
+### Pre-processing
+In the folder "pre-processing" you can find the `imagecrop.py` program that crops out the SKU110K dataset.
+It saves these crops in a training, test and validation set for SSL pre-training.
+
+### Pre-training
+In the folder "pretraining" you can find all yaml configuration files that I used for pre-training with VISSL.
+For more information about how to execute SSL pre-training, I recommend taking a look at the [VISSL documentation](https://vissl.readthedocs.io/en/v0.1.6/)
+
+### Evaluation and fine-tuning
+In the folder "evaluation_and_finetuning" you can find all the scripts I used for:
+- Creating the embedding galleries (`embedding_gallery.py`, `load_vissl_model.py`)
+- evaluating embedding quality (`similarity_matrix.py`)
+- fine-tuning and evaluating classifiers (`cross_validation.py`, `performance_assessment.py`)
+- logging and plotting results for the thesis (`log_processing.py`)
+
+The program `query_origin.py` is used to determine the strict train-test split.
+
+### testing notebooks and extras
+The folder testing notebooks contains some of the notebooks I used for testing purposes before making a computationally heavy script.
+The folder extras contains some extra scripts I used for creating figures and extracting data for the thesis.
+
+
+ 
+

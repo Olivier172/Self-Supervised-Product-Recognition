@@ -1,0 +1,7 @@
+Dataset Statistics:
+-------------------
+Total Images: 27
+Total Objects: 1652
+Unique Classes: 408
+Objects per Image: 61.19
+Classes per Image: 15.11
